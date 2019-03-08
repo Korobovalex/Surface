@@ -53,7 +53,7 @@ header {
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-repeat: no-repeat no-repeat;
+	background-repeat: no-repeat;
 	background-color: #0f1032;
 	z-index: 1;
 }
@@ -75,7 +75,7 @@ header::before {
 
 /*    Logo styles    */
 
-.header__logo {
+.header__logo, .footer__logo {
 	display: block;
 	max-width: 20.5rem;
     margin: 0 auto;
@@ -134,6 +134,8 @@ header::before {
 
     .button__text {
     	display: block;
+    	text-align: left;
+    	letter-spacing: .05em;
     }
 
     .button:last-child {
@@ -154,7 +156,7 @@ footer {
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-repeat: no-repeat no-repeat;
+	background-repeat: no-repeat;
 	background-color: #0f1032;
 	z-index: 1;
 }
@@ -234,7 +236,12 @@ footer::before {
 
 		.header__logo {
 			max-width: 13.5rem;
-			padding-top: 3.5rem;
+			padding-top: 3rem;
+		}
+
+		.footer__logo {
+			max-width: 13.5rem;
+			padding-bottom: 1rem;
 		}
 
 		/*    Heading media    */
@@ -249,8 +256,12 @@ footer::before {
 
 		/*    Buttons media    */
 
-		.buttons {
+		header .buttons {
 			margin-top: 9rem;
+		}
+
+		footer .buttons {
+			margin-top: 8rem;
 		}
 
 		.button {
@@ -278,6 +289,12 @@ footer::before {
 		.footer-heading__headline {
 			font-size: 3rem;
 		}
+
+		.footer-heading__slogan {
+			margin-top: 0;
+			font-size: 1.4rem;
+			letter-spacing: .05em;
+		}
     }
 
 
@@ -299,6 +316,11 @@ footer::before {
 			padding-top: 4rem;
 		}
 
+		.footer__logo {
+			max-width: 20.5rem;
+			padding-bottom: 2.5rem;
+		}
+
 		/*    Heading media    */
 
 		.header__heading {
@@ -311,8 +333,12 @@ footer::before {
 
 		/*    Buttons media    */
 
-		.buttons {
+		header .buttons {
 			margin-top: 31rem;
+		}
+
+		footer .buttons {
+			margin-top: 29rem;
 		}
 
 		.button {
@@ -339,6 +365,11 @@ footer::before {
 		.footer-heading__headline {
 			font-size: 8rem;
 		}
+
+		.footer-heading__slogan {
+			margin-top: 0;
+			font-size: 3.5rem;
+		}
     }
 
 
@@ -360,10 +391,16 @@ footer::before {
 			padding-top: 4.5rem;
 		}
 
+		.footer__logo {
+			max-width: 19rem;
+			margin-top: 24rem;
+			padding-bottom: 5rem;
+		}
+
 		/*    Heading media    */
 
 		.header__heading {
-			margin-top: 20rem;			
+			margin-top: 22rem;			
 		}
 
 		.header__headline {
@@ -372,9 +409,13 @@ footer::before {
 
 		/*    Buttons media    */
 
-		.buttons {
-			margin-top: 15rem;
-			padding-bottom: 10.5rem;
+		header .buttons {
+			margin-top: 22.5rem;
+			padding-bottom: 10rem;
+		}
+
+		footer .buttons {
+			margin-top: 16rem;
 		}
 
 		.button {
@@ -390,7 +431,7 @@ footer::before {
 		/*    Footer heading media    */
 
 		.footer-heading {
-			padding-top: 30rem;
+			padding-top: 20rem;
 		}
 
 		.footer-heading__icon {
