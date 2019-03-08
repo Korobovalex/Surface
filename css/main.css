@@ -1,0 +1,283 @@
+
+
+/*    Surface main page styles    */
+
+@font-face { 
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf') format("truetype"),
+         url('../fonts/OpenSans-Regular.woff') format("woff"), 
+         url('../fonts/OpenSans-Regular.woff2') format("woff2"); 
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.centered {
+    max-width: 1566px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/*    Header styles    */
+
+header {
+	position: relative;
+	width: 100%;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat no-repeat;
+	background-color: #0f1032;
+	z-index: 1;
+}
+
+header::before {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    background: rgba(8, 9, 38, .9);
+	z-index: -1;
+}
+
+
+
+
+/*    Logo styles    */
+
+.header__logo {
+	display: block;
+	max-width: 20.5rem;
+    margin: 0 auto;
+}
+.logo__img {
+	fill: #ffffff;
+}
+
+
+/*    Header-heading styles    */
+
+.header__headline {
+	display: block;
+	vertical-align: top;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	color: #ffffff;
+}
+
+.header__headline.left {
+	text-align: left;
+}
+
+.header__headline.right {
+	text-align: right;
+}
+
+
+
+/*    Buttons styles    */
+
+    .header__buttons {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5rem;
+    }
+
+    .header__button {
+        justify-content: center;
+        align-items: center;
+        padding: 10px 15px;
+        border-radius: 4rem;
+        background: #5e42b0;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .button__icon {
+    	margin-right: 3rem;
+        width: 5rem;
+        fill: #ffffff;
+    }
+
+    .button__text {
+    	display: block;
+    }
+
+    .header__button:last-child {
+        margin-left: 5rem;
+    }
+
+
+/*   Main styles    */
+
+
+
+/*    Footer styles    */
+
+
+
+
+/*===============================*/
+
+ /*     Media styles   */
+
+        /*    x320px    */
+
+    @media ( max-width: 640px ) {
+
+		/*    Header media    */
+
+		header {
+			background: #0f1032 url('../img/football_767.jpg');
+		}
+
+		/*    Logo media    */
+
+		.header__logo {
+			max-width: 13.5rem;
+			padding-top: 3.5rem;
+		}
+
+		/*    Heading media    */
+
+		.header__heading {
+			margin-top: 13.5rem;			
+		}
+
+		.header__headline {
+			font-size: 3rem;
+		}
+
+		/*    Buttons media    */
+
+		.header__buttons {
+			margin-top: 9rem;
+		}
+
+		.header__button {
+			display: block;
+    		flex-basis: 28rem;
+    	}
+    }
+
+
+
+        /*    x768px    */
+
+    @media ( min-width: 641px ) and ( max-width: 960px ) {
+		
+		/*    Header media    */
+
+		header {
+			background: #0f1032 url('../img/football_1280.jpg');
+		}
+
+		/*    Logo media    */
+
+		.header__logo {
+			max-width: 20.5rem;
+			padding-top: 4rem;
+		}
+
+		/*    Heading media    */
+
+		.header__heading {
+			margin-top: 18rem;
+		}
+
+		.header__headline {
+			font-size: 6.5rem;
+		}
+
+		/*    Buttons media    */
+
+		.header__buttons {
+			margin-top: 31rem;
+		}
+
+		.header__button {
+    		flex-basis: 31rem;
+    	}
+    }
+
+
+
+/*    x1920px    */
+
+	@media ( min-width: 961px ) and ( max-width: 1920px ) {
+
+		/*    Header media    */
+
+		header {
+			background: #0f1032 url('../img/football_1920.jpg');
+		}
+
+		/*    Logo media    */
+
+		.header__logo {
+			max-width: 19rem;
+			padding-top: 4.5rem;
+		}
+
+		/*    Heading media    */
+
+		.header__heading {
+			margin-top: 25rem;			
+		}
+
+		.header__headline {
+			font-size: 9rem;
+		}
+
+		/*    Buttons media    */
+
+		.header__buttons {
+			margin-top: 15rem;
+			padding-bottom: 10.5rem;
+		}
+
+		.header__button {
+    		flex-basis: 31rem;
+    	}
+
+		/*    Logo    */
+
+
+	}
+
+
+
+
