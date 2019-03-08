@@ -108,13 +108,13 @@ header::before {
 
 /*    Buttons styles    */
 
-    .header__buttons {
+    .buttons {
         justify-content: center;
         align-items: center;
         padding-bottom: 5rem;
     }
 
-    .header__button {
+    .button {
         justify-content: center;
         align-items: center;
         padding: 10px 15px;
@@ -136,7 +136,7 @@ header::before {
     	display: block;
     }
 
-    .header__button:last-child {
+    .button:last-child {
         margin-left: 5rem;
     }
 
@@ -181,8 +181,7 @@ footer::before {
         display: -ms-inline-flex;
         display: -o-inline-flex;
         display: inline-flex;
-        width: 13rem;
-        height: 13rem;
+
         align-self: center;
         border-radius: 30px;
         background: #5e42b0;
@@ -201,13 +200,14 @@ footer::before {
     .footer-heading__headline {
         display: block;
         text-transform: uppercase;
+        vertical-align: middle;
+		line-height: 1;
         font-weight: 700;
         letter-spacing: .05em;
         color: #ffffff;
     }
 
     .footer-heading__slogan {
-        margin-top: 1rem;
         text-transform: uppercase;
         color: #a496ca;
 
@@ -249,11 +249,11 @@ footer::before {
 
 		/*    Buttons media    */
 
-		.header__buttons {
+		.buttons {
 			margin-top: 9rem;
 		}
 
-		.header__button {
+		.button {
 			display: block;
     		flex-basis: 28rem;
     	}
@@ -262,6 +262,21 @@ footer::before {
 
 		footer {
 			background: #0f1032 url('../img/game_767.jpg');
+		}
+
+		/*    Footer heading media    */
+
+		.footer-heading {
+			padding-top: 10rem;
+		}
+
+		.footer-heading__icon {
+			width: 7.5rem;
+			height: 7.5rem;
+		}
+
+		.footer-heading__headline {
+			font-size: 3rem;
 		}
     }
 
@@ -296,18 +311,33 @@ footer::before {
 
 		/*    Buttons media    */
 
-		.header__buttons {
+		.buttons {
 			margin-top: 31rem;
 		}
 
-		.header__button {
+		.button {
     		flex-basis: 31rem;
     	}
 
     	/*    Footer media    */
 
-		header {
+		footer {
 			background: #0f1032 url('../img/game_1280.jpg');
+		}
+
+		/*    Footer heading media    */
+
+		.footer-heading {
+			padding-top: 12.5rem;
+		}
+
+		.footer-heading__icon {
+			width: 13rem;
+			height: 13rem;
+		}
+
+		.footer-heading__headline {
+			font-size: 8rem;
 		}
     }
 
@@ -342,22 +372,40 @@ footer::before {
 
 		/*    Buttons media    */
 
-		.header__buttons {
+		.buttons {
 			margin-top: 15rem;
 			padding-bottom: 10.5rem;
 		}
 
-		.header__button {
+		.button {
     		flex-basis: 31rem;
     	}
 
-    	/*    Header media    */
+    	/*    Footer media    */
 
 		footer {
 			background: #0f1032 url('../img/game_1920.jpg');
 		}
 
-		/*    Logo    */
+		/*    Footer heading media    */
+
+		.footer-heading {
+			padding-top: 30rem;
+		}
+
+		.footer-heading__icon {
+			width: 13rem;
+			height: 13rem;
+		}
+
+		.footer-heading__headline {
+			font-size: 8rem;
+		}
+
+		.footer-heading__slogan {
+			margin-top: 0;
+			font-size: 3rem;
+		}
 
 
 	}
