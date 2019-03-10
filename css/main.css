@@ -173,6 +173,10 @@ header::before {
 		background-color: #5e42b0;
 	}
 
+	.players .features-block.bottom {
+		background-color: #0a0e34;
+	}
+
 	.athlests .features__title, .athlests .feature {
 		padding-left: 50%;
 	}
@@ -195,9 +199,13 @@ header::before {
 		position: relative;
 		margin-right: 1rem;
 		font-size: 1.8rem;
-		font-weight: 700;
+		font-weight: 800;
 		color:#000000;
 		letter-spacing: .05em;
+	}
+
+	.players .features-block.bottom .feature__number {
+		color: #9173e6;
 	}
 
 	.feature__number::after {
@@ -255,17 +263,29 @@ header::before {
 
 	/*    Calling styles    */
 
+	.calling-list {
+		flex-direction: column;
+	}
+
 	.calling-list__item {
 		position: relative;
 	}
 
 	.calling__img {
-		width: 50vw;
+		width: 50%;
 		height: 100%;
 	}
 
 	.calling__content {
-		margin-left: 15rem;
+		margin-left: 10rem;
+	}
+
+	.find_contact {
+		flex-direction: row-reverse;		
+	}
+
+	.find_contact .calling__content {
+		margin-right: 10rem;
 	}
 
 	.calling__number {
@@ -274,7 +294,7 @@ header::before {
 		height: 15.5rem;
 		margin: 0 auto;
 		top: 21rem;
-		left: calc(50% - 1rem);
+		left: calc(50% - 7.5rem);
         background: #5e42b0;
         z-index: 1;
 	}
@@ -293,7 +313,7 @@ header::before {
 		position: absolute;
 		display: block;
 		bottom: -5px;
-		left: -3px;
+		left: 0;
 		width: 100%;
 		height: 5px;
 		border-radius: 5px;
@@ -406,7 +426,7 @@ footer::before {
 		/*    Header media    */
 
 		header {
-			background: #0f1032 url('../img/football_767.jpg');
+			background: url('../img/football_767.jpg');
 		}
 
 		/*    Logo media    */
@@ -449,7 +469,7 @@ footer::before {
     	/*    Footer media    */
 
 		footer {
-			background: #0f1032 url('../img/game_767.jpg');
+			background: url('../img/game_767.jpg');
 		}
 
 		/*    Footer heading media    */
@@ -483,7 +503,7 @@ footer::before {
 		/*    Header media    */
 
 		header {
-			background: #0f1032 url('../img/football_1280.jpg');
+			background: url('../img/football_1280.jpg');
 		}
 
 		/*    Logo media    */
@@ -525,7 +545,7 @@ footer::before {
     	/*    Footer media    */
 
 		footer {
-			background: #0f1032 url('../img/game_1280.jpg');
+			background: url('../img/game_1280.jpg');
 		}
 
 		/*    Footer heading media    */
@@ -558,7 +578,7 @@ footer::before {
 		/*    Header media    */
 
 		header {
-			background: #0f1032 url('../img/football_1920.jpg');
+			background: url('../img/football_1920.jpg');
 		}
 
 		/*    Logo media    */
@@ -602,7 +622,7 @@ footer::before {
     	/*    Footer media    */
 
 		footer {
-			background: #0f1032 url('../img/game_1920.jpg');
+			background: url('../img/game_1920.jpg');
 		}
 
 		/*    Footer heading media    */
