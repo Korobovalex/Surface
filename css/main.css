@@ -156,20 +156,14 @@ header::before {
 	}
 
 	.features-block.top {
-		height: 41.5rem;
-		padding: 6rem;	
 		background-color: #ffffff;
 	}
 
-	.features-block.middle {
-		height: 25rem;
-		padding: 6rem;	
+	.features-block.middle {	
 		background-color: #f6f4fa;
 	}
 
 	.features-block.bottom {
-		height: 22rem;
-		padding: 6rem;
 		background-color: #5e42b0;
 	}
 
@@ -186,9 +180,6 @@ header::before {
 	}
 
 	.features__title {
-		margin-top: 5rem;
-		margin-bottom: 6rem;
-		font-size: 8rem;
 		font-weight: 700;
 		letter-spacing: .05em;
 		text-transform: uppercase;
@@ -197,8 +188,6 @@ header::before {
 
 	.feature__number {
 		position: relative;
-		margin-right: 1rem;
-		font-size: 1.8rem;
 		font-weight: 800;
 		color:#000000;
 		letter-spacing: .05em;
@@ -227,7 +216,6 @@ header::before {
 	}
 
 	.feature__heading {
-		font-size: 3.6rem;
 		vertical-align: top;
 		text-transform: uppercase;
 		font-weight: 700;
@@ -236,8 +224,6 @@ header::before {
 	}
 
 	.feature__description {
-		max-width: 75rem;
-		font-size: 2rem;
 		letter-spacing: .05em;	
 		color: #000000;
 	}
@@ -248,17 +234,7 @@ header::before {
 
 	.features__img {
 		position: absolute;
-		z-index: 2;
-	}
-
-	.athlests .features__img {
-		top: 3rem;
-		left: 35rem;
-	}
-
-	.players .features__img {
-		top: 2rem;
-		right: 10rem;
+		z-index: 1;
 	}
 
 	/*    Calling styles    */
@@ -271,30 +247,9 @@ header::before {
 		position: relative;
 	}
 
-	.calling__img {
-		width: 50%;
-		height: 100%;
-	}
-
-	.calling__content {
-		margin-left: 10rem;
-	}
-
-	.find_contact {
-		flex-direction: row-reverse;		
-	}
-
-	.find_contact .calling__content {
-		margin-right: 10rem;
-	}
-
 	.calling__number {
 		position: absolute;
-		width: 17rem;
-		height: 15.5rem;
 		margin: 0 auto;
-		top: 21rem;
-		left: calc(50% - 7.5rem);
         background: #5e42b0;
         z-index: 1;
 	}
@@ -302,7 +257,6 @@ header::before {
 	.calling__counter {
 		position: relative;
 		margin: auto;
-		font-size: 2.4rem;
 		font-weight: 800;
 		letter-spacing: .05em;
 		color: #f5f6f7;
@@ -312,35 +266,30 @@ header::before {
 		content: '';
 		position: absolute;
 		display: block;
-		bottom: -5px;
+		bottom: -.5rem;
 		left: 0;
 		width: 100%;
-		height: 5px;
-		border-radius: 5px;
+		height: .5rem;
+		border-radius: .5rem;
 		background: #8f7bc8;
 		z-index: 2;
 	}
 
 	.calling__title {
 		display: block;
-		margin-top: 24rem;
-		margin-left: 6rem;
 		text-transform: uppercase;
-		font-size: 8rem;
 		font-weight: 700;
 		color: #c1c1c1;
 	}
 
 	.calling__desription {
 		display: block;
-		max-width: 65rem;
-		margin-top: 10rem;
-		margin-left: 6rem;
-		font-size: 2.4rem;
 		line-height: 2.8rem;
 		letter-spacing: .05em;
 		color: #000000;
 	}
+
+
 
 
 
@@ -466,6 +415,127 @@ footer::before {
     		flex-basis: 28rem;
     	}
 
+   		/*    Features media    */
+
+	   	.features-block.top {
+			height: 41.5rem;
+			padding: 6rem;	
+		}
+
+		.features-block.middle {
+			height: 25rem;
+			padding: 6rem;	
+		}
+
+		.features-block.bottom {
+			height: 22rem;
+			padding: 6rem;
+		}
+
+		.features__title {
+			margin-top: 5rem;
+			margin-bottom: 6rem;
+			font-size: 8rem;
+		}
+
+
+      	/*    Features media    */
+
+	    .features-block.top {
+			height: 41.5rem;
+			padding: 6rem;	
+		}
+
+		.features-block.middle {
+			height: 25rem;
+			padding: 6rem;	
+		}
+
+		.features-block.bottom {
+			height: 22rem;
+			padding: 6rem;
+		}
+
+		.features__title {
+			margin-top: 5rem;
+			margin-bottom: 6rem;
+			font-size: 8rem;
+		}
+
+		.feature__number {
+			margin-right: 1rem;
+			font-size: 1.8rem;
+		}
+
+		.feature__heading {
+			font-size: 3.6rem;
+		}
+
+		.feature__description {
+			max-width: 75rem;
+			font-size: 2rem;
+		}
+
+		.athlests .features__img {
+			top: 3rem;
+			left: 35rem;
+		}
+
+		.players .features__img {
+			top: 2rem;
+			right: 10rem;
+		}
+
+   		/*    Calling media    */
+
+   		.calling-list__item {
+   			height: 73rem;
+   		}
+
+		.calling__img {
+			width: 50%;
+			height: 100%;
+		}
+
+		.calling__content {
+			margin-left: 10rem;
+		}
+
+		.find_contact {
+			flex-direction: row-reverse;		
+		}
+
+		.find_contact .calling__content {
+			margin-right: 10rem;
+		}
+
+		.calling__number {
+			width: 17rem;
+			height: 15.5rem;
+			top: 21rem;
+			left: calc(50% - 8rem);
+		}
+
+		.calling__counter {
+			font-size: 2.4rem;
+		}
+
+		.calling__title {
+			margin-top: 24rem;
+			margin-left: 6rem;
+			font-size: 8rem;
+		}
+
+		.calling__desription {
+			max-width: 65rem;
+			margin-top: 10rem;
+			margin-left: 6rem;
+			font-size: 2.4rem;
+			line-height: 2.8rem;
+		}
+
+
+
     	/*    Footer media    */
 
 		footer {
@@ -542,7 +612,129 @@ footer::before {
     		flex-basis: 31rem;
     	}
 
-    	/*    Footer media    */
+    	/*    Features media    */
+
+    	.features-block.top {
+			height: 41.5rem;
+			padding: 6rem;	
+		}
+
+		.features-block.middle {
+			height: 25rem;
+			padding: 6rem;	
+		}
+
+		.features-block.bottom {
+			height: 22rem;
+			padding: 6rem;
+		}
+
+		.features__title {
+			margin-top: 3rem;
+			margin-bottom: 6rem;
+			font-size: 8rem;
+		}
+
+		.feature__number {
+			margin-right: 1rem;
+			font-size: 1.8rem;
+		}
+
+
+    	/*    Features media    */
+
+	    .features-block.top {
+			height: 41.5rem;
+			padding: 6rem;	
+		}
+
+		.features-block.middle {
+			height: 25rem;
+			padding: 6rem;	
+		}
+
+		.features-block.bottom {
+			height: 22rem;
+			padding: 6rem;
+		}
+
+		.features__title {
+			margin-top: 5rem;
+			margin-bottom: 6rem;
+			font-size: 8rem;
+		}
+
+		.feature__number {
+			margin-right: 1rem;
+			font-size: 1.8rem;
+		}
+
+		.feature__heading {
+			font-size: 3.6rem;
+		}
+
+		.feature__description {
+			max-width: 75rem;
+			font-size: 2rem;
+		}
+
+		.athlests .features__img {
+			top: 3rem;
+			left: 35rem;
+		}
+
+		.players .features__img {
+			top: 2rem;
+			right: 10rem;
+		}
+
+   		/*    Calling media    */
+
+   		.calling-list__item {
+   			height: 73rem;
+   		}
+
+		.calling__img {
+			width: 50%;
+			height: 100%;
+		}
+
+		.calling__content {
+			margin-left: 10rem;
+		}
+
+		.find_contact {
+			flex-direction: row-reverse;		
+		}
+
+		.find_contact .calling__content {
+			margin-right: 10rem;
+		}
+
+		.calling__number {
+			width: 17rem;
+			height: 15.5rem;
+			top: 21rem;
+			left: calc(50% - 8rem);
+		}
+
+		.calling__counter {
+			font-size: 2.4rem;
+		}
+
+		.calling__title {
+			margin-top: 24rem;
+			margin-left: 6rem;
+			font-size: 8rem;
+		}
+
+		.calling__desription {
+			max-width: 65rem;
+			margin-top: 10rem;
+			margin-left: 6rem;
+			font-size: 2.4rem;
+			line-height: 2.8rem;
+		}
 
 		footer {
 			background: url('../img/game_1280.jpg');
@@ -618,6 +810,101 @@ footer::before {
 		.button {
     		flex-basis: 31rem;
     	}
+
+    	/*    Features media    */
+
+	    .features-block.top {
+			height: 41.5rem;
+			padding: 6rem;	
+		}
+
+		.features-block.middle {
+			height: 25rem;
+			padding: 6rem;	
+		}
+
+		.features-block.bottom {
+			height: 22rem;
+			padding: 6rem;
+		}
+
+		.features__title {
+			margin-top: 5rem;
+			margin-bottom: 6rem;
+			font-size: 8rem;
+		}
+
+		.feature__number {
+			margin-right: 1rem;
+			font-size: 1.8rem;
+		}
+
+		.feature__heading {
+			font-size: 3.6rem;
+		}
+
+		.feature__description {
+			max-width: 75rem;
+			font-size: 2rem;
+		}
+
+		.athlests .features__img {
+			top: 3rem;
+			left: 35rem;
+		}
+
+		.players .features__img {
+			top: 2rem;
+			right: 10rem;
+		}
+
+   		/*    Calling media    */
+
+   		.calling-list__item {
+   			height: 73rem;
+   		}
+
+		.calling__img {
+			width: 50%;
+			height: 100%;
+		}
+
+		.calling__content {
+			margin-left: 10rem;
+		}
+
+		.find_contact {
+			flex-direction: row-reverse;		
+		}
+
+		.find_contact .calling__content {
+			margin-right: 10rem;
+		}
+
+		.calling__number {
+			width: 17rem;
+			height: 15.5rem;
+			top: 21rem;
+			left: calc(50% - 8rem);
+		}
+
+		.calling__counter {
+			font-size: 2.4rem;
+		}
+
+		.calling__title {
+			margin-top: 24rem;
+			margin-left: 6rem;
+			font-size: 8rem;
+		}
+
+		.calling__desription {
+			max-width: 65rem;
+			margin-top: 10rem;
+			margin-left: 6rem;
+			font-size: 2.4rem;
+			line-height: 2.8rem;
+		}
 
     	/*    Footer media    */
 
