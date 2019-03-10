@@ -145,6 +145,89 @@ header::before {
 
 /*   Main styles    */
 
+	/*    Features styles    */
+
+	.features {
+		position: relative;
+	}
+
+	.features-block {
+		width: 100%;
+	}
+
+	.features-block.top {
+		height: 41.5rem;
+		padding: 6rem;	
+		background-color: #ffffff;
+	}
+
+	.features-block.middle {
+		height: 25rem;
+		padding: 6rem;	
+		background-color: #f6f4fa;
+	}
+
+	.features-block.bottom {
+		height: 22rem;
+		padding: 6rem;
+		background-color: #5e42b0;
+	}
+
+	.athlests .features__title, .athlests .feature {
+		padding-left: 50%;
+	}
+
+	.players .features__title, .players .feature {
+		padding-right: 0;
+	}
+
+	.features__title {
+		margin-top: 5rem;
+		margin-bottom: 6rem;
+		font-size: 8rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #e7e7e7;
+	}
+
+	.feature__number {
+		font-size: 1.8rem;
+		font-weight: 700;
+		color:#000000;
+		border-bottom: 5px solid #5e42b0;
+		letter-spacing: .05em;
+	}
+
+	.feature__heading {
+		font-size: 3.6rem;
+		vertical-align: top;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: .05em;
+		color: #c1c1c1;
+	}
+
+	.feature__description {
+		max-width: 70rem;
+		font-size: 2rem;
+		letter-spacing: .05em;	
+	}
+
+	.features__img {
+		position: absolute;
+		z-index: 2;
+	}
+
+	.athlests .features__img {
+		top: 30px;
+		left: 50px;
+	}
+
+	.players .features__img {
+		top: 20px;
+		right: 50px;
+	}
+
 
 
 /*    Footer styles    */
