@@ -239,9 +239,7 @@ header::before {
 
 	/*    Calling styles    */
 
-	.calling-list {
-		flex-direction: column;
-	}
+
 
 	.calling-list__item {
 		position: relative;
