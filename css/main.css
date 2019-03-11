@@ -578,7 +578,7 @@ footer::before {
     		width: 100%;
     		padding-left: 5rem;
     		padding-right: 5rem;
-    		padding-bottom: 9rem;
+    		/*padding-bottom: 9rem;*/
     	}
 		
 		/*    Header media x768px   */
@@ -626,18 +626,24 @@ footer::before {
 
     	/*    Features media x768px   */
 
+		.features-wrapper {
+			padding: 0;
+		}
+
+
+
+
 	    .features-block.top {
-			padding: 3.5rem;
-			padding-left: 3.5rem;
+			padding: 3rem;
 
 		}
 
 		.features-block.middle {
-			padding: 3.5rem;
+			padding: 3rem;
 		}
 
 		.features-block.bottom {
-			padding: 3.5rem;
+			padding: 3rem;
 		}
 
 		.features__title {
@@ -656,17 +662,17 @@ footer::before {
 		}
 
 		.feature__description {
-			max-width: 75rem;
+			max-width: 45rem;
 			margin-top: 2rem;
-			font-size: 2rem;
+			font-size: 1.6rem;
 		}
 
 		.athlests .features__title, .athlests .feature {
-			padding-left: 30%;
+			padding-left: 32%;
 		}
 
 		.players .features__title, .players .feature {
-			padding-right: 30%;
+			padding-right: 35%;
 		}
 
 		.athlests .features__img {
@@ -675,7 +681,7 @@ footer::before {
 		}
 
 		.players .features__img {
-			top: 3.5rem;
+			top: 6rem;
 			right: 0;
 		}
 
