@@ -247,7 +247,6 @@ header::before {
 
 	.calling__number {
 		position: absolute;
-		margin: 0 auto;
         background: #5e42b0;
         z-index: 1;
 	}
@@ -370,13 +369,13 @@ footer::before {
 
     @media ( max-width: 640px ) {
 
-		/*    Header media    */
+		/*    Header media x320px   */
 
 		header {
 			background: url('../img/football_767.jpg');
 		}
 
-		/*    Logo media    */
+		/*    Logo media x320px   */
 
 		.header__logo {
 			max-width: 13.5rem;
@@ -388,7 +387,7 @@ footer::before {
 			padding-bottom: 1rem;
 		}
 
-		/*    Heading media    */
+		/*    Heading media x320px   */
 
 		.header__heading {
 			margin-top: 13.5rem;			
@@ -398,7 +397,7 @@ footer::before {
 			font-size: 3rem;
 		}
 
-		/*    Buttons media    */
+		/*    Buttons media x320px   */
 
 		header .buttons {
 			margin-top: 9rem;
@@ -413,7 +412,7 @@ footer::before {
     		flex-basis: 28rem;
     	}
 
-   		/*    Features media    */
+   		/*    Features media x320px   */
 
 	   	.features-block.top {
 			height: 41.5rem;
@@ -437,7 +436,7 @@ footer::before {
 		}
 
 
-      	/*    Features media    */
+      	/*    Features media x320px   */
 
 	    .features-block.top {
 			height: 41.5rem;
@@ -484,7 +483,7 @@ footer::before {
 			right: 10rem;
 		}
 
-   		/*    Calling media    */
+   		/*    Calling media x320px   */
 
    		.calling-list__item {
    			height: 73rem;
@@ -508,10 +507,10 @@ footer::before {
 		}
 
 		.calling__number {
-			width: 17rem;
+/*			width: 17rem;
 			height: 15.5rem;
 			top: 21rem;
-			left: calc(50% - 8rem);
+			left: calc(50% - 8rem);*/
 		}
 
 		.calling__counter {
@@ -534,13 +533,13 @@ footer::before {
 
 
 
-    	/*    Footer media    */
+    	/*    Footer media x320px   */
 
 		footer {
 			background: url('../img/game_767.jpg');
 		}
 
-		/*    Footer heading media    */
+		/*    Footer heading media x320px   */
 
 		.footer-heading {
 			padding-top: 10rem;
@@ -567,14 +566,20 @@ footer::before {
         /*    x768px    */
 
     @media ( min-width: 641px ) and ( max-width: 960px ) {
+
+    	.centered {
+    		width: 100%;
+    		padding-left: 5rem;
+    		padding-right: 5rem;
+    	}
 		
-		/*    Header media    */
+		/*    Header media x768px   */
 
 		header {
 			background: url('../img/football_1280.jpg');
 		}
 
-		/*    Logo media    */
+		/*    Logo media x768px   */
 
 		.header__logo {
 			max-width: 20.5rem;
@@ -586,7 +591,7 @@ footer::before {
 			padding-bottom: 2.5rem;
 		}
 
-		/*    Heading media    */
+		/*    Heading media x768px   */
 
 		.header__heading {
 			margin-top: 18rem;
@@ -596,7 +601,7 @@ footer::before {
 			font-size: 6.5rem;
 		}
 
-		/*    Buttons media    */
+		/*    Buttons media x768px   */
 
 		header .buttons {
 			margin-top: 31rem;
@@ -610,7 +615,7 @@ footer::before {
     		flex-basis: 31rem;
     	}
 
-    	/*    Features media    */
+    	/*    Features media x768px   */
 
     	.features-block.top {
 			height: 41.5rem;
@@ -639,7 +644,7 @@ footer::before {
 		}
 
 
-    	/*    Features media    */
+    	/*    Features media x768px   */
 
 	    .features-block.top {
 			height: 41.5rem;
@@ -686,19 +691,27 @@ footer::before {
 			right: 10rem;
 		}
 
-   		/*    Calling media    */
+   		/*    Calling media x768px   */
+
+   		.calling-list {
+   			display: block;
+   		}
 
    		.calling-list__item {
-   			height: 73rem;
+   			display: block;
    		}
 
 		.calling__img {
-			width: 50%;
-			height: 100%;
+			position: relative;
+			width: 100%;
 		}
 
 		.calling__content {
-			margin-left: 10rem;
+			position: relative;
+			display: block;
+			width: 100%;
+			padding-top: 8rem;
+			padding-left: 3.5rem;
 		}
 
 		.find_contact {
@@ -710,10 +723,10 @@ footer::before {
 		}
 
 		.calling__number {
-			width: 17rem;
-			height: 15.5rem;
-			top: 21rem;
-			left: calc(50% - 8rem);
+			width: 11.5rem;
+			height: 11.5rem;
+			top: -8rem;
+			left: 3.5rem;
 		}
 
 		.calling__counter {
@@ -721,15 +734,13 @@ footer::before {
 		}
 
 		.calling__title {
-			margin-top: 24rem;
-			margin-left: 6rem;
 			font-size: 8rem;
 		}
 
 		.calling__desription {
 			max-width: 65rem;
-			margin-top: 10rem;
-			margin-left: 6rem;
+			margin-top: 4rem;
+			padding-bottom: 8rem;
 			font-size: 2.4rem;
 			line-height: 2.8rem;
 		}
@@ -738,7 +749,7 @@ footer::before {
 			background: url('../img/game_1280.jpg');
 		}
 
-		/*    Footer heading media    */
+		/*    Footer heading media x768px   */
 
 		.footer-heading {
 			padding-top: 12.5rem;
@@ -765,13 +776,13 @@ footer::before {
 
 	@media ( min-width: 961px ) and ( max-width: 1920px ) {
 
-		/*    Header media    */
+		/*    Header media x1920px   */
 
 		header {
 			background: url('../img/football_1920.jpg');
 		}
 
-		/*    Logo media    */
+		/*    Logo media x1920px   */
 
 		.header__logo {
 			max-width: 19rem;
@@ -784,7 +795,7 @@ footer::before {
 			padding-bottom: 5rem;
 		}
 
-		/*    Heading media    */
+		/*    Heading media x1920px   */
 
 		.header__heading {
 			margin-top: 22rem;			
@@ -794,7 +805,7 @@ footer::before {
 			font-size: 9rem;
 		}
 
-		/*    Buttons media    */
+		/*    Buttons media x1920px   */
 
 		header .buttons {
 			margin-top: 22.5rem;
@@ -809,7 +820,7 @@ footer::before {
     		flex-basis: 31rem;
     	}
 
-    	/*    Features media    */
+    	/*    Features media x1920px   */
 
 	    .features-block.top {
 			height: 41.5rem;
@@ -856,7 +867,7 @@ footer::before {
 			right: 10rem;
 		}
 
-   		/*    Calling media    */
+   		/*    Calling media x1920px   */
 
    		.calling-list__item {
    			height: 73rem;
@@ -904,13 +915,13 @@ footer::before {
 			line-height: 2.8rem;
 		}
 
-    	/*    Footer media    */
+    	/*    Footer media x1920px   */
 
 		footer {
 			background: url('../img/game_1920.jpg');
 		}
 
-		/*    Footer heading media    */
+		/*    Footer heading media x1920px`   */
 
 		.footer-heading {
 			padding-top: 20rem;
