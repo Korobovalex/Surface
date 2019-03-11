@@ -182,6 +182,8 @@ header::before {
 	.features__title {
 		font-weight: 700;
 		letter-spacing: .05em;
+		line-height: 1;
+		vertical-align: top;
 		text-transform: uppercase;
 		color: #e7e7e7;
 	}
@@ -368,6 +370,13 @@ footer::before {
         /*    x320px    */
 
     @media ( max-width: 640px ) {
+
+    	.centered {
+    		width: 100%;
+    		padding-left: 5rem;
+    		padding-right: 5rem;
+    		padding-bottom: 9rem;
+    	}
 
 		/*    Header media x320px   */
 
@@ -571,6 +580,7 @@ footer::before {
     		width: 100%;
     		padding-left: 5rem;
     		padding-right: 5rem;
+    		padding-bottom: 9rem;
     	}
 		
 		/*    Header media x768px   */
@@ -598,7 +608,7 @@ footer::before {
 		}
 
 		.header__headline {
-			font-size: 6.5rem;
+			font-size: 6.4rem;
 		}
 
 		/*    Buttons media x768px   */
@@ -619,23 +629,25 @@ footer::before {
     	/*    Features media x768px   */
 
 	    .features-block.top {
-			height: 41.5rem;
-			padding: 6rem;	
+			/*height: 36rem;*/
+			padding: 3.5rem;
+			/*padding-top: 6rem;*/
+			/*padding-bottom: 3.5rem;*/
+			padding-left: 3.5rem;
+
 		}
 
 		.features-block.middle {
-			height: 25rem;
-			padding: 6rem;	
+			padding: 3.5rem;
 		}
 
 		.features-block.bottom {
-			height: 22rem;
-			padding: 6rem;
+			padding: 3.5rem;
 		}
 
 		.features__title {
 			margin-top: 5rem;
-			margin-bottom: 6rem;
+			margin-bottom: 5rem;
 			font-size: 8rem;
 		}
 
@@ -650,17 +662,26 @@ footer::before {
 
 		.feature__description {
 			max-width: 75rem;
+			margin-top: 2rem;
 			font-size: 2rem;
 		}
 
+		.athlests .features__title, .athlests .feature {
+			padding-left: 30%;
+		}
+
+		.players .features__title, .players .feature {
+			padding-right: 30%;
+		}
+
 		.athlests .features__img {
-			top: 3rem;
-			left: 35rem;
+			top: 9rem;
+			right: 60%;
 		}
 
 		.players .features__img {
-			top: 2rem;
-			right: 10rem;
+			top: 3.5rem;
+			right: 0;
 		}
 
    		/*    Calling media x768px   */
@@ -712,7 +733,7 @@ footer::before {
 		.calling__desription {
 			max-width: 65rem;
 			margin-top: 4rem;
-			padding-bottom: 8rem;
+			padding-bottom: 9rem;
 			font-size: 2.4rem;
 			line-height: 2.8rem;
 		}
