@@ -629,10 +629,7 @@ footer::before {
     	/*    Features media x768px   */
 
 	    .features-block.top {
-			/*height: 36rem;*/
 			padding: 3.5rem;
-			/*padding-top: 6rem;*/
-			/*padding-bottom: 3.5rem;*/
 			padding-left: 3.5rem;
 
 		}
@@ -731,9 +728,9 @@ footer::before {
 		}
 
 		.calling__desription {
-			max-width: 65rem;
+			max-width: 67rem;
 			margin-top: 4rem;
-			padding-bottom: 9rem;
+			padding-bottom: 10rem;
 			font-size: 2.4rem;
 			line-height: 2.8rem;
 		}
@@ -744,22 +741,37 @@ footer::before {
 
 		/*    Footer heading media x768px   */
 
+		.footer-heading.centered {
+			padding-left: 3rem;
+			padding-right: 3rem;
+		}
+
 		.footer-heading {
+			flex-direction: column;
+			justify-content: center;
+			width: 100%;
 			padding-top: 12.5rem;
 		}
 
 		.footer-heading__icon {
 			width: 13rem;
 			height: 13rem;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
+		.footer-heading__title {
+        	padding-left: 0;
+    	}
+
 		.footer-heading__headline {
+			margin-top: 8rem;
 			font-size: 8rem;
 		}
 
 		.footer-heading__slogan {
-			margin-top: 0;
-			font-size: 3.5rem;
+			font-size: 3.6rem;
+			text-align: center;			
 		}
     }
 
