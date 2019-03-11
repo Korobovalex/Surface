@@ -615,34 +615,6 @@ footer::before {
     		flex-basis: 31rem;
     	}
 
-    	/*    Features media x768px   */
-
-    	.features-block.top {
-			height: 41.5rem;
-			padding: 6rem;	
-		}
-
-		.features-block.middle {
-			height: 25rem;
-			padding: 6rem;	
-		}
-
-		.features-block.bottom {
-			height: 22rem;
-			padding: 6rem;
-		}
-
-		.features__title {
-			margin-top: 3rem;
-			margin-bottom: 6rem;
-			font-size: 8rem;
-		}
-
-		.feature__number {
-			margin-right: 1rem;
-			font-size: 1.8rem;
-		}
-
 
     	/*    Features media x768px   */
 
