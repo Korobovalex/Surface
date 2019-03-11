@@ -40,8 +40,6 @@ body {
 .centered {
     max-width: 1566px;
     margin: 0 auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
 
 
@@ -859,6 +857,7 @@ footer::before {
 
 		.feature__description {
 			max-width: 75rem;
+			margin-top: 3rem;
 			font-size: 2rem;
 		}
 
