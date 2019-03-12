@@ -114,6 +114,7 @@ header::before {
     .button {
         justify-content: center;
         align-items: center;
+        border-radius: 4rem;
         background: #5e42b0;
         text-align: center;
         text-decoration: none;
@@ -583,7 +584,7 @@ footer::before {
 
 		.footer__logo {
 			max-width: 20.5rem;
-			padding-bottom: 2.5rem;
+			padding-bottom: 2rem;
 		}
 
 		/*    Heading media x768px   */
@@ -605,10 +606,25 @@ footer::before {
 
 		footer .buttons {
 			margin-top: 29rem;
+			padding-bottom: 5rem;
 		}
 
 		.button {
     		flex-basis: 31rem;
+    		padding: 10px 15px;
+    	}
+
+    	.button:first-child {
+    		margin-right: 3rem;
+    	}
+
+    	.button__icon {
+    		width: 4rem;
+    		margin-right: 3rem;
+    	}
+
+    	.button__text {
+    		font-size: 1.4rem;
     	}
 
 
@@ -738,7 +754,7 @@ footer::before {
 			flex-direction: column;
 			justify-content: center;
 			width: 100%;
-			padding-top: 12.5rem;
+			padding-top: 13rem;
 		}
 
 		.footer-heading__icon {
@@ -785,7 +801,7 @@ footer::before {
 		.footer__logo {
 			max-width: 19rem;
 			margin-top: 24rem;
-			padding-bottom: 5rem;
+			/*padding-bottom: 5rem;*/
 		}
 
 		/*    Heading media x1920px   */
@@ -820,10 +836,10 @@ footer::before {
 	        width: 5rem;
     	}
 
-    .button__text {
-    	display: block;
-    	text-align: left;
-    }
+	    .button__text {
+	    	display: block;
+	    	text-align: left;
+	    }
 
     .button:last-child {
         margin-left: 5rem;
