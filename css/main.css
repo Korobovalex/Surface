@@ -801,7 +801,7 @@ footer::before {
 		.footer__logo {
 			max-width: 19rem;
 			margin-top: 24rem;
-			/*padding-bottom: 5rem;*/
+			padding-bottom: 5rem;
 		}
 
 		/*    Heading media x1920px   */
