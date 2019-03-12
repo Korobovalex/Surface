@@ -388,7 +388,6 @@ footer::before {
 
 		.header__headline.right {
 			font-size: 2.8rem;
-			/*max-width: 25rem;*/
 		}
 
 		/*    Buttons media x320px   */
@@ -537,35 +536,6 @@ footer::before {
 		}
 
 		/*    Footer heading media x320px   */
-
-/*		.footer-heading {
-			display: block;
-			
-			padding-top: 10rem;
-		}
-
-		.footer-heading__icon {
-			display: block;
-			justify-content: center;
-			margin: 0 auto;
-			width: 7.5rem;
-			height: 7.5rem;
-		}
-
-		.footer-heading__img {
-			max-width: 5.5rem;
-			margin: auto;
-		}
-
-		.footer-heading__headline {
-			font-size: 3.2rem;
-		}
-
-		.footer-heading__slogan {
-			margin-top: 0;
-			font-size: 1.4rem;
-			letter-spacing: .05em;
-		}*/
 
 		.footer-heading.centered {
 			padding-left: 2rem;
@@ -899,17 +869,14 @@ footer::before {
     	/*    Features media x1920px   */
 
 	    .features-block.top {
-			/*height: 41.5rem;*/
 			padding: 6rem;	
 		}
 
 		.features-block.middle {
-			/*height: 25rem;*/
 			padding: 6rem;	
 		}
 
 		.features-block.bottom {
-			/*height: 22rem;*/
 			padding: 6rem;
 		}
 
