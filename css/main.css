@@ -393,7 +393,7 @@ footer::before {
 
 		/*    Buttons media x320px   */
 
-		header .buttons {
+		header .buttons, footer .buttons {
 			width: 100%;
 			-webkit-flex-wrap: wrap;
 			-moz-flex-wrap: wrap;
@@ -471,11 +471,6 @@ footer::before {
 			font-size: 2.3rem;
 		}
 
-/*		.feature__heading:first-child {
-			margin-top: 3rem;
-			padding-top: 35rem;
-		}*/
-
 		.feature__description {
 			margin-top: 3rem;
 			font-size: 1.5rem;
@@ -489,51 +484,51 @@ footer::before {
 
 		.players .features__img {
 			top: 9rem;
-			left: 1.5rem;
+			left: 1rem;
 		}
 
    		/*    Calling media x320px   */
 
    		.calling-list__item {
-   			height: 73rem;
+   			display: block;
    		}
 
 		.calling__img {
-			width: 50%;
-			height: 100%;
+			position: relative;
+			display: block;
 		}
 
-		.calling__content {
-			margin-left: 10rem;
+		.calling__content {			
+			display: block;
+			width: 100%;
+			height: 21rem;
+			padding: 0 2rem;
 		}
 
-		.find_contact {
-			flex-direction: row-reverse;		
-		}
-
-		.find_contact .calling__content {
-			margin-right: 10rem;
+		.calling__number {
+			bottom: 19rem;
+			left: 2rem;
+			width: 7rem;
+			height: 7rem;
 		}
 
 		.calling__counter {
-			font-size: 2.4rem;
+			font-size: 1.4rem;
 		}
 
 		.calling__title {
-			margin-top: 24rem;
-			margin-left: 6rem;
-			font-size: 8rem;
+			display: block;
+			margin-bottom: 20px;
+			padding-top: 3.5rem;
+			font-size: 2.8rem;
 		}
 
 		.calling__desription {
-			max-width: 65rem;
-			margin-top: 10rem;
-			margin-left: 6rem;
-			font-size: 2.4rem;
-			line-height: 2.8rem;
+			display: block;
+			margin-top: 2.5rem;
+			font-size: 1.6rem;
+			line-height: 2rem;
 		}
-
-
 
     	/*    Footer media x320px   */
 
@@ -543,23 +538,73 @@ footer::before {
 
 		/*    Footer heading media x320px   */
 
-		.footer-heading {
+/*		.footer-heading {
+			display: block;
+			
 			padding-top: 10rem;
 		}
 
 		.footer-heading__icon {
+			display: block;
+			justify-content: center;
+			margin: 0 auto;
 			width: 7.5rem;
 			height: 7.5rem;
 		}
 
+		.footer-heading__img {
+			max-width: 5.5rem;
+			margin: auto;
+		}
+
 		.footer-heading__headline {
-			font-size: 3rem;
+			font-size: 3.2rem;
 		}
 
 		.footer-heading__slogan {
 			margin-top: 0;
 			font-size: 1.4rem;
 			letter-spacing: .05em;
+		}*/
+
+		.footer-heading.centered {
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+
+		.footer-heading {
+			flex-direction: column;
+			justify-content: center;
+			width: 100%;
+			padding-top: 10rem;
+		}
+
+		.footer-heading__icon {
+			width: 7.5rem;
+			height: 7.5rem;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 20px;
+		}
+
+		.footer-heading__img {
+			width: 5.5rem;
+		}
+
+		.footer-heading__title {
+        	padding-left: 0;
+    	}
+
+		.footer-heading__headline {
+			margin-top: 6rem;
+			font-size: 3rem;
+			text-align: center;
+		}
+
+		.footer-heading__slogan {
+			margin-top: 1rem;
+			font-size: 1.4rem;
+			text-align: center;			
 		}
     }
 
