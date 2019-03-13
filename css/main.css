@@ -181,6 +181,10 @@ header::before {
 		letter-spacing: .05em;
 	}
 
+	.features-block.bottom .feature__number {
+		color: #0a0e34;
+	}
+
 	.players .features-block.bottom .feature__number {
 		color: #9173e6;
 	}
