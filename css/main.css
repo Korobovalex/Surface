@@ -503,6 +503,7 @@ footer::before {
 		.calling__img {
 			position: relative;
 			display: block;
+			width: 100%;
 		}
 
 		.calling__content {			
