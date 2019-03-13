@@ -88,7 +88,7 @@ header::before {
 .header__headline {
 	display: block;
 	vertical-align: top;
-	font-weight: 800;
+	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 	color: #ffffff;
@@ -166,7 +166,7 @@ header::before {
 	}
 
 	.features__title {
-		font-weight: 800;
+		font-weight: 700;
 		letter-spacing: .05em;
 		line-height: 1;
 		vertical-align: top;
@@ -179,10 +179,6 @@ header::before {
 		font-weight: 800;
 		color:#000000;
 		letter-spacing: .05em;
-	}
-
-	.features-block.bottom .feature__number {
-		color: #0a0e34;
 	}
 
 	.players .features-block.bottom .feature__number {
@@ -231,16 +227,19 @@ header::before {
 
 	/*    Calling styles    */
 
-
-
 	.calling-list__item {
 		position: relative;
 	}
 
+	calling__img {
+		display: block;
+		
+	}
+
 	.calling__number {
 		position: absolute;
-        	background: #5e42b0;
-        	z-index: 1;
+        background: #5e42b0;
+        z-index: 1;
 	}
 
 	.calling__counter {
@@ -277,10 +276,6 @@ header::before {
 		letter-spacing: .05em;
 		color: #000000;
 	}
-
-
-
-
 
 /*    Footer styles    */
 
@@ -387,15 +382,17 @@ footer::before {
 		/*    Heading media x320px   */
 
 		.header__heading {
+			display: block;
 			margin-top: 15rem;			
 		}
+
 		.header__headline {
 			font-size: 2.8rem;
 		}
-	    
+
 		.header__headline.right {
-			margin-left: 4.5rem;
 			text-align: left;
+			margin-left: 5rem;
 		}
 
 		/*    Buttons media x320px   */
@@ -500,8 +497,13 @@ footer::before {
    			display: block;
    		}
 
-		.calling__img {
+		.calling__pic {
 			position: relative;
+			display: block;
+			width: 100%;
+		}
+
+		.calling__img {
 			display: block;
 			width: 100%;
 		}
@@ -626,10 +628,10 @@ footer::before {
 		.header__headline {
 			font-size: 6.4rem;
 		}
-	    
-	    	.header__headline.right {
+
+		.header__headline.right {
 			margin-left: 10rem;
-    			text-align: left;
+			text-align: left;
 		}
 
 		/*    Buttons media x768px   */
@@ -730,8 +732,7 @@ footer::before {
    			display: block;
    		}
 
-		.calling__img {
-			position: relative;
+		.calling__pic {
 			width: 100%;
 		}
 
@@ -816,7 +817,7 @@ footer::before {
 
 
 
-				/*    x1920px    */
+						/*    x1920px    */
 
 	@media ( min-width: 961px ) and ( max-width: 1920px ) {
 
@@ -935,7 +936,7 @@ footer::before {
    			height: 73rem;
    		}
 
-		.calling__img {
+		.calling__pic {
 			width: 50%;
 			height: 100%;
 		}
@@ -954,7 +955,7 @@ footer::before {
 
 		.calling__number {
 			width: 17rem;
-			height: 15.5rem;
+			height: 17rem;
 			top: 21rem;
 			left: calc(50% - 8rem);
 		}
@@ -965,24 +966,16 @@ footer::before {
 
 		.calling__title {
 			margin-top: 24rem;
-			margin-left: 3rem;
+			margin-left: 6rem;
 			font-size: 8rem;
-		}
-		
-		.find-contact .calling__title {
-			margin-left: 10rem;
 		}
 
 		.calling__desription {
 			max-width: 65rem;
 			margin-top: 10rem;
-			margin-left: 3rem;
+			margin-left: 6rem;
 			font-size: 2.4rem;
 			line-height: 2.8rem;
-		}
-			
-		.find-contact .calling__desription {
-			margin-left: 10rem;
 		}
 
     	/*    Footer media x1920px   */
