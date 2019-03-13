@@ -239,8 +239,8 @@ header::before {
 
 	.calling__number {
 		position: absolute;
-        background: #5e42b0;
-        z-index: 1;
+        	background: #5e42b0;
+        	z-index: 1;
 	}
 
 	.calling__counter {
