@@ -497,12 +497,6 @@ footer::before {
    			display: block;
    		}
 
-		.calling__pic {
-			position: relative;
-			display: block;
-			width: 100%;
-		}
-
 		.calling__img {
 			width: 100%;
 		}
@@ -730,14 +724,10 @@ footer::before {
    		.calling-list__item {
    			display: block;
    		}
-
-		.calling__pic {
+	    
+		.calling__img {
 			width: 100%;
 		}
-	    
-	    .calling__img {
-		    width: 100%;
-	    }
 
 		.calling__content {
 			position: relative;
@@ -940,11 +930,8 @@ footer::before {
    		}
 
 		.calling__pic {
-			width: 100%;
-		}
-		
-		.calling__img {
-			width: 100%;
+			width: 50%;
+			height: 100%;
 		}
 
 		.calling__content {
