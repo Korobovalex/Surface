@@ -815,7 +815,7 @@ footer::before {
 
 
 
-						/*    x1920px    */
+				/*    x1920px    */
 
 	@media ( min-width: 961px ) and ( max-width: 1920px ) {
 
@@ -964,16 +964,24 @@ footer::before {
 
 		.calling__title {
 			margin-top: 24rem;
-			margin-left: 10rem;
+			margin-left: 3rem;
 			font-size: 8rem;
+		}
+		
+		.find-contact .calling__title {
+			margin-left: 10rem;
 		}
 
 		.calling__desription {
 			max-width: 65rem;
 			margin-top: 10rem;
-			margin-left: 6rem;
+			margin-left: 3rem;
 			font-size: 2.4rem;
 			line-height: 2.8rem;
+		}
+			
+		.find-contact .calling__desription {
+			margin-left: 10rem;
 		}
 
     	/*    Footer media x1920px   */
