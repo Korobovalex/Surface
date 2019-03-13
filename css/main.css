@@ -504,7 +504,6 @@ footer::before {
 		}
 
 		.calling__img {
-			display: block;
 			width: 100%;
 		}
 
@@ -733,9 +732,12 @@ footer::before {
    		}
 
 		.calling__pic {
-			/*position: relative;*/
 			width: 100%;
 		}
+	    
+	    .calling__img {
+		    width: 100%;
+	    }
 
 		.calling__content {
 			position: relative;
@@ -938,8 +940,11 @@ footer::before {
    		}
 
 		.calling__pic {
-			width: 50%;
-			height: 100%;
+			width: 100%;
+		}
+		
+		.calling__img {
+			width: 100%;
 		}
 
 		.calling__content {
