@@ -810,7 +810,7 @@ footer::before {
 
 
 
-						/*    x1920px    */
+				/*    x1920px    */
 
 	@media ( min-width: 961px ) and ( max-width: 1920px ) {
 
@@ -929,10 +929,11 @@ footer::before {
    			height: 73rem;
    		}
 
-		.calling__pic {
+		.calling__pic, .calling__img {
 			width: 50%;
-			height: 100%;
 		}
+		
+
 
 		.calling__content {
 			margin-left: 10rem;
