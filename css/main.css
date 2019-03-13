@@ -206,7 +206,7 @@ header::before {
 	.feature__heading {
 		vertical-align: top;
 		text-transform: uppercase;
-		font-weight: 700;
+		font-weight: 800;
 		letter-spacing: .05em;
 		color: #c1c1c1;
 	}
@@ -227,10 +227,13 @@ header::before {
 
 	/*    Calling styles    */
 
-
-
 	.calling-list__item {
 		position: relative;
+	}
+
+	calling__img {
+		display: block;
+		
 	}
 
 	.calling__number {
@@ -263,7 +266,7 @@ header::before {
 	.calling__title {
 		display: block;
 		text-transform: uppercase;
-		font-weight: 700;
+		font-weight: 800;
 		color: #c1c1c1;
 	}
 
@@ -273,10 +276,6 @@ header::before {
 		letter-spacing: .05em;
 		color: #000000;
 	}
-
-
-
-
 
 /*    Footer styles    */
 
@@ -335,7 +334,7 @@ footer::before {
         text-transform: uppercase;
         vertical-align: middle;
 		line-height: 1;
-        font-weight: 700;
+        font-weight: 800;
         letter-spacing: .05em;
         color: #ffffff;
     }
@@ -383,11 +382,17 @@ footer::before {
 		/*    Heading media x320px   */
 
 		.header__heading {
+			display: block;
 			margin-top: 15rem;			
 		}
 
-		.header__headline.right {
+		.header__headline {
 			font-size: 2.8rem;
+		}
+
+		.header__headline.right {
+			text-align: left;
+			margin-left: 5rem;
 		}
 
 		/*    Buttons media x320px   */
@@ -492,9 +497,15 @@ footer::before {
    			display: block;
    		}
 
-		.calling__img {
+		.calling__pic {
 			position: relative;
 			display: block;
+			width: 100%;
+		}
+
+		.calling__img {
+			display: block;
+			width: 100%;
 		}
 
 		.calling__content {			
@@ -618,6 +629,11 @@ footer::before {
 			font-size: 6.4rem;
 		}
 
+		.header__headline.right {
+			margin-left: 10rem;
+			text-align: left;
+		}
+
 		/*    Buttons media x768px   */
 
 		header .buttons {
@@ -716,8 +732,8 @@ footer::before {
    			display: block;
    		}
 
-		.calling__img {
-			position: relative;
+		.calling__pic {
+			/*position: relative;*/
 			width: 100%;
 		}
 
@@ -921,7 +937,7 @@ footer::before {
    			height: 73rem;
    		}
 
-		.calling__img {
+		.calling__pic {
 			width: 50%;
 			height: 100%;
 		}
@@ -940,7 +956,7 @@ footer::before {
 
 		.calling__number {
 			width: 17rem;
-			height: 15.5rem;
+			height: 17rem;
 			top: 21rem;
 			left: calc(50% - 8rem);
 		}
