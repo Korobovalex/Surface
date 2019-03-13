@@ -88,7 +88,7 @@ header::before {
 .header__headline {
 	display: block;
 	vertical-align: top;
-	font-weight: 700;
+	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: .05em;
 	color: #ffffff;
@@ -166,7 +166,7 @@ header::before {
 	}
 
 	.features__title {
-		font-weight: 700;
+		font-weight: 800;
 		letter-spacing: .05em;
 		line-height: 1;
 		vertical-align: top;
@@ -206,7 +206,7 @@ header::before {
 	.feature__heading {
 		vertical-align: top;
 		text-transform: uppercase;
-		font-weight: 700;
+		font-weight: 800;
 		letter-spacing: .05em;
 		color: #c1c1c1;
 	}
@@ -263,7 +263,7 @@ header::before {
 	.calling__title {
 		display: block;
 		text-transform: uppercase;
-		font-weight: 700;
+		font-weight: 800;
 		color: #c1c1c1;
 	}
 
@@ -335,7 +335,7 @@ footer::before {
         text-transform: uppercase;
         vertical-align: middle;
 		line-height: 1;
-        font-weight: 700;
+        font-weight: 800;
         letter-spacing: .05em;
         color: #ffffff;
     }
@@ -385,9 +385,13 @@ footer::before {
 		.header__heading {
 			margin-top: 15rem;			
 		}
-
-		.header__headline.right {
+		.header__headline {
 			font-size: 2.8rem;
+		}
+	    
+		.header__headline.right {
+			margin-left: 4.5rem;
+			text-align: left;
 		}
 
 		/*    Buttons media x320px   */
@@ -616,6 +620,11 @@ footer::before {
 
 		.header__headline {
 			font-size: 6.4rem;
+		}
+	    
+	    	.header__headline.right {
+			margin-left: 10rem;
+    			text-align: left;
 		}
 
 		/*    Buttons media x768px   */
