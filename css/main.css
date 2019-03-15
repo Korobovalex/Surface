@@ -56,7 +56,6 @@ body {
 
 header {
 	position: relative;
-	width: 100%;
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -87,6 +86,7 @@ header::before {
 	max-width: 20.5rem;
     margin: 0 auto;
 }
+
 .logo__img {
 	fill: #ffffff;
 }
@@ -186,7 +186,7 @@ header::before {
 	.feature__number {
 		position: relative;
 		vertical-align: super;
-		font-weight: 800;
+		font-weight: 700;
 		color:#000000;
 		letter-spacing: .05em;
 	}
@@ -216,7 +216,7 @@ header::before {
 	.feature__heading {
 		vertical-align: top;
 		text-transform: uppercase;
-		font-weight: 800;
+		font-weight: 700;
 		letter-spacing: .05em;
 		color: #c1c1c1;
 	}
@@ -255,7 +255,7 @@ header::before {
 	.calling__counter {
 		position: relative;
 		margin: auto;
-		font-weight: 800;
+		font-weight: 700;
 		letter-spacing: .05em;
 		color: #f5f6f7;
 	}
@@ -276,7 +276,7 @@ header::before {
 	.calling__title {
 		display: block;
 		text-transform: uppercase;
-		font-weight: 800;
+		font-weight: 700;
 		color: #c1c1c1;
 	}
 
@@ -292,7 +292,6 @@ header::before {
 
 footer {
 	position: relative;
-	width: 100%;
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -344,7 +343,7 @@ footer::before {
         text-transform: uppercase;
         vertical-align: middle;
 		line-height: 1;
-        font-weight: 800;
+        font-weight: 700;
         letter-spacing: .05em;
         color: #ffffff;
     }
@@ -1010,9 +1009,53 @@ footer::before {
 			margin-top: 0;
 			font-size: 3rem;
 		}
-
-
 	}
+
+	/*    Orientation media    */
+
+	@media ( max-width: 640px ) and ( orientation: landscape ) {
+
+		.header__headline.right {
+			margin-left: 18rem;			
+		}
+	}
+
+
+		@media ( min-width: 961px ) and ( max-width: 1366px ) {
+		
+		.header__headline.right {
+			text-align: left; 
+			margin-left: 15rem;			
+		}
+
+	    .athlets .features-block.top, .athlets .features-block.middle, .athlets .features-block.bottom  {
+			padding: 3rem;	
+		}
+
+		.athlests .features__title, .athlests .feature {
+			padding-left: 57%;
+		}
+
+		.players .features__title, .players .feature {
+			padding-right: 57%;
+		}
+
+		.athlests .features__img {
+			top: 9rem;
+			/*right: 50%;*/
+			left: calc(50% - 54rem);
+		}
+
+		.players .features__img {
+			top: 2rem;
+			left: calc(50% - 15rem);
+		}
+
+
+		}
+
+
+
 
 
 
