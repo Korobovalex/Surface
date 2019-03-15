@@ -809,6 +809,7 @@ footer::before {
 		.footer-heading__headline {
 			margin-top: 8rem;
 			font-size: 8rem;
+			letter-spacing: .45em;
 		}
 
 		.footer-heading__slogan {
