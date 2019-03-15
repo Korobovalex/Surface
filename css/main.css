@@ -496,7 +496,7 @@ footer::before {
 		}
 
 		.players .features__img {
-			top: 9rem;
+			top: 10rem;
 			left: 1rem;
 		}
 
@@ -1018,6 +1018,23 @@ footer::before {
 		.header__headline.right {
 			margin-left: 18rem;			
 		}
+
+   	/*    Features media landscape   */
+
+
+		.features__title {
+			margin-left: calc(50% - 13rem);
+		}
+
+		.athlests .features__img {
+			/*top: 9rem;*/
+			left: calc(50% - 10rem);
+		}
+
+		.players .features__img {
+			/*top: 2rem;*/
+			left: calc(50% - 15rem);
+		}
 	}
 
 
@@ -1032,6 +1049,8 @@ footer::before {
 			padding: 3rem;	
 		}
 
+		   	/*    Features media x1366   */
+
 		.athlests .features__title, .athlests .feature {
 			padding-left: 57%;
 		}
@@ -1042,7 +1061,6 @@ footer::before {
 
 		.athlests .features__img {
 			top: 9rem;
-			/*right: 50%;*/
 			left: calc(50% - 54rem);
 		}
 
@@ -1050,6 +1068,43 @@ footer::before {
 			top: 2rem;
 			left: calc(50% - 15rem);
 		}
+
+	   	/*    Calling media x1366   */
+
+	   	.calling-list__item {
+	   		display: block;
+	   		padding-bottom: 30rem;
+	   	}
+
+	   	.calling__number {
+	   		top: 30rem;
+	   		left: 3rem;
+	   	}
+
+	   	.calling__content {
+	   		display: block;
+	   		max-width: 100%;
+	   		padding: 3rem;
+	   		margin-left: 17rem;
+
+	   	}
+
+	   	.calling__title {
+	   		display: block;
+	   		margin-left: 10rem;
+	   		margin-top: 0;
+	   	}
+
+	   	.calling__desription {
+	   		margin-top: 3rem;
+	   		margin-left: 10rem;
+	   	}
+
+	   	.caling__img {
+	   		max-width: 100%;
+	   	}
+
+
 
 
 		}
