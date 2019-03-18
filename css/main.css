@@ -946,7 +946,7 @@ footer::before {
 		.calling__content {
 			width: 50%;
 			padding-left: 10vmax;
-			padding-top: 13vmax;
+			padding-top: 12vmax;
 		}
 
 		.find_contact {
@@ -970,9 +970,6 @@ footer::before {
 		}
 
 		.calling__title {
-			/*margin-top: 30%;*/
-			/*margin-left: 3rem;*/
-			/*font-size: 8rem;*/
 			font-size: calc( (100vw - 960px)/(1920 - 960) * (80 - 30) + 30px);
 		}
 
@@ -981,8 +978,8 @@ footer::before {
 		}
 
 		.calling__desription {
-			max-width: 65rem;
-			margin-top: 5rem;
+			max-width: 85%;
+			margin-top: 10vmax;
 			font-size: 2.4rem;
 			line-height: 2.8rem;
 		}
