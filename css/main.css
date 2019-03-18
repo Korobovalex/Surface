@@ -820,7 +820,7 @@ footer::before {
 
 
 
-				/*    x1920px    */
+						/*    x1920px    */
 
 	@media ( min-width: 961px ) and ( max-width: 1920px ) {
 
@@ -887,14 +887,17 @@ footer::before {
     	/*    Features media x1920px   */
 
 	    .features-block.top {
+			height: 41.5rem;
 			padding: 6rem;	
 		}
 
 		.features-block.middle {
+			height: 25rem;
 			padding: 6rem;	
 		}
 
 		.features-block.bottom {
+			height: 22rem;
 			padding: 6rem;
 		}
 
@@ -924,44 +927,40 @@ footer::before {
 		}
 
 		.athlests .features__img {
-			top: 9rem;
+			top: 3rem;
 			left: 35rem;
 		}
 
 		.players .features__img {
 			top: 2rem;
-			right: 13rem;
+			right: 10rem;
 		}
 
    		/*    Calling media x1920px   */
 
-   		.calling__pic {
-   			width: 50%;
-   		}
+		.calling__pic {
+			width: 50%;
+		}
 
 		.calling__img {
 			width: 100%;
 		}
 
 		.calling__content {
-			width: 50%;
-			padding-left: 10vmax;
-			padding-top: 12vmax;
+			padding-left: 15rem;
+			padding-right: 15rem;
 		}
 
 		.find_contact {
 			flex-direction: row-reverse;		
 		}
 
-		.find_contact .calling__content {
-			padding-right: 10vmax;
-			padding-left: 0;
-		}
+
 
 		.calling__number {
-			width: 15rem;
-			height: 15rem;
-			top: 10vmax;
+			width: 17rem;
+			height: 15.5rem;
+			top: 21rem;
 			left: calc(50% - 8rem);
 		}
 
@@ -970,26 +969,16 @@ footer::before {
 		}
 
 		.calling__title {
-			font-size: calc( (100vw - 960px)/(1920 - 960) * (80 - 30) + 30px);
-		}
-
-		.find_contact  .calling__title {
-			text-align: right;
+			margin-top: 24rem;
+			font-size: 8rem;
 		}
 
 		.calling__desription {
-			max-width: 85%;
-			margin-top: 10vmax;
+			max-width: 65rem;
+			margin-top: 10rem;
 			font-size: 2.4rem;
 			line-height: 2.8rem;
 		}
-
-		.find_contact  .calling__desription {
-			margin-left: 10rem;
-		}
-
-
-
 
     	/*    Footer media x1920px   */
 
@@ -1016,6 +1005,66 @@ footer::before {
 			margin-top: 0;
 			font-size: 3rem;
 		}
+	}
+
+							/*    x1919px    */
+
+	@media ( min-width: 961px ) and ( max-width: 1919px ) {
+
+		   		/*    Calling media x1920px   */
+
+		.calling__pic {
+			width: 50%;
+		}
+
+		.calling__img {
+			width: 100%;
+			/*height: 100%;*/
+		}
+
+		.calling__content {
+			width: 50%;
+			padding-left: 10rem;
+			padding-right: 7rem;
+		}
+
+		.find_contact {
+			flex-direction: row-reverse;		
+		}
+
+		.find_contact .calling__content {
+			padding-left: 3.5rem;
+			padding-right: 3.5rem;
+
+		}
+
+		.calling__number {
+			width: 16rem;
+			height: 16rem;
+			top: 10vmax;
+			left: calc(50% - 8rem);
+		}
+
+		.calling__counter {
+			font-size: 2.4rem;
+		}
+
+		.calling__title {
+			/*margin-top: 14vmax;*/
+			margin-top: calc( (100vw - 96rem)/(192 - 96) * (15 - 10) + 15rem);
+			font-size: calc( (100vw - 96rem)/(192 - 96) * (8 - 5) + 5rem);
+		}
+
+		.calling__desription {
+			margin-top: calc( (100vw - 96rem)/(192 - 96) * (15 - 3.5) + 3.5rem);
+			font-size: calc( (100vw - 96rem)/(192 - 96) * (2.4 - 1.8) + 1.8rem);
+			line-height: 2.8rem;
+		}
+
+		.find_contact .calling__desription {
+			max-width: 36rem;
+		}
+
 	}
 
 	/*    Orientation media    */
