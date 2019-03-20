@@ -854,7 +854,8 @@ footer::before {
 		/*    Heading media >961px   */
 
 		.header__heading {
-			margin-top: 22rem;			
+			margin-top: 22rem;
+			padding: 0 5rem;			
 		}
 
 		.header__headline {
