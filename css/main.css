@@ -820,7 +820,7 @@ footer::before {
 
 
 
-						/*    >961px    */
+		/*    >961px    */
 
 	@media ( min-width: 961px ) {
 
@@ -935,8 +935,6 @@ footer::before {
 			left: calc(50% - calc( (100vw - 96rem)/(192 - 96) * (10 - 8) + 8rem));
 		}
 
-
-
    		/*    Calling media >961px   */
 
 		.calling__pic {
@@ -954,7 +952,7 @@ footer::before {
 
 		.calling__content {
 			width: 50%;
-			padding-left: 10rem;
+			padding-left: 11rem;
 			padding-right: 7rem;
 		}
 
@@ -980,19 +978,15 @@ footer::before {
 		}
 
 		.calling__title {
-			margin-top: calc( (100vw - 96rem)/(192 - 96) * (15 - 10) + 15rem);
+			margin-top: calc( (100vw - 96rem)/(192 - 96) * (17 - 10) + 15rem);
 			font-size: calc( (100vw - 96rem)/(192 - 96) * (8 - 5) + 5rem);
 		}
 
 		.calling__desription {
 			max-width: 68rem;
-			margin-top: calc( (100vw - 96rem)/(192 - 96) * (15 - 3.5) + 3.5rem);
+			margin-top: calc( (100vw - 96rem)/(192 - 96) * (11 - 3.5) + 3.5rem);
 			font-size: calc( (100vw - 96rem)/(192 - 96) * (2.4 - 1.8) + 1.8rem);
 			line-height: 2.8rem;
-		}
-
-		.find_contact .calling__desription {
-			max-width: 36rem;
 		}
 
 
@@ -1003,8 +997,6 @@ footer::before {
 		}
 
 		/*    Footer heading media >961px   */
-
-
 
 		.footer-heading {
 			padding-top: 20rem;
@@ -1030,8 +1022,6 @@ footer::before {
 	/*     media x2000px   */
 
 	@media (min-width: 1921px) {
-
-
 
 
    		/*    Calling media x2000px    */
