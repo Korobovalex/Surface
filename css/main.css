@@ -243,7 +243,6 @@ header::before {
 
 	.calling__img {
 		display: block;
-		
 	}
 
 	.calling__number {
@@ -966,7 +965,7 @@ footer::before {
 
 		.calling__content {
 			width: 50%;
-			padding-left: 11rem;
+			padding-left: calc( (100vw - 96rem)/(192 - 96) * (13 - 11) + 11rem);
 			padding-right: 7rem;
 		}
 
@@ -980,9 +979,11 @@ footer::before {
 		}
 
 		.calling__number {
-			width: 16rem;
-			height: 16rem;
-			top: calc( (100vw - 96rem)/(192 - 96) * (15 - 10) + 10rem);
+			width: calc( (100vw - 96rem)/(192 - 96) * (16.8 - 15) + 15rem);
+			height: calc( (100vw - 96rem)/(192 - 96) * (15.5 - 15) + 15rem);
+			/*width: 16.8rem;
+			height: 15.5rem;*/
+			top: calc( (100vw - 96rem)/(192 - 96) * (23 - 10) + 10rem);
 			left: calc(50% - 8rem);
 		}
 
@@ -991,13 +992,13 @@ footer::before {
 		}
 
 		.calling__title {
-			margin-top: calc( (100vw - 96rem)/(192 - 96) * (17 - 15) + 15rem);
+			margin-top: calc( (100vw - 96rem)/(192 - 96) * (25.5 - 15) + 15rem);
 			font-size: calc( (100vw - 96rem)/(192 - 96) * (8 - 5) + 5rem);
 		}
 
 		.calling__desription {
-			max-width: 68rem;
-			margin-top: calc( (100vw - 96rem)/(192 - 96) * (11 - 3.5) + 3.5rem);
+			max-width: 65rem;
+			margin-top: calc( (100vw - 96rem)/(192 - 96) * (9 - 3.5) + 3.5rem);
 			font-size: calc( (100vw - 96rem)/(192 - 96) * (2.4 - 1.8) + 1.8rem);
 			line-height: 2.8rem;
 		}
