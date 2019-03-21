@@ -974,15 +974,13 @@ footer::before {
 		}
 
 		.find_contact .calling__content {
-			padding-left: calc( (100vw - 96rem)/(192 - 96) * (15 - 3) + 3rem);
+			padding-left: calc( (100vw - 96rem)/(192 - 96) * (19 - 2.5) + 2.5rem);
 			padding-right: 3.5rem;
 		}
 
 		.calling__number {
 			width: calc( (100vw - 96rem)/(192 - 96) * (16.8 - 15) + 15rem);
 			height: calc( (100vw - 96rem)/(192 - 96) * (15.5 - 15) + 15rem);
-			/*width: 16.8rem;
-			height: 15.5rem;*/
 			top: calc( (100vw - 96rem)/(192 - 96) * (23 - 10) + 10rem);
 			left: calc(50% - 8rem);
 		}
@@ -1003,6 +1001,10 @@ footer::before {
 			line-height: 2.8rem;
 		}
 
+		.find_contact .calling__desription {
+			margin-top: calc( (100vw - 96rem)/(192 - 96) * (5 - 3.5) + 3.5rem);
+		}
+
 
     	/*    Footer media >961px   */
 
@@ -1013,7 +1015,7 @@ footer::before {
 		/*    Footer heading media >961px   */
 
 		.footer-heading {
-			padding-top: 20rem;
+			padding-top: 30rem;
 		}
 
 		.footer-heading__icon {
