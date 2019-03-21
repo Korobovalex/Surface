@@ -52,7 +52,7 @@ body {
 }
 
 .inner {
-	max-width: 1566px;
+	max-width: 1536px;
 	margin: 0 auto;
 }
 
@@ -102,6 +102,7 @@ header::before {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: .05em;
+	line-height: 1;
 	color: #ffffff;
 }
 
@@ -140,7 +141,9 @@ header::before {
     .button__text {
     	display: block;
     	text-align: left;
-    	letter-spacing: .05em;
+    	font-size: 1.4rem;
+	    letter-spacing: .05em;
+	    color: #ffffff;
     }
 
 
@@ -353,14 +356,13 @@ footer::before {
     .footer-heading__slogan {
         text-transform: uppercase;
         color: #a496ca;
-
     }
 
 
-/*===============================*/
 
 
  /*     Media styles   */
+
 
         /*    x320px    */
 
@@ -835,13 +837,13 @@ footer::before {
 		/*    Header media >961px   */
 
 		header {
-			background: url('../img/football_1920.jpg');
+			background-image: url('../img/football_1920.jpg');
 		}
 
 		/*    Logo media >961px   */
 
 		.header__logo {
-			max-width: 21rem;
+			max-width: 19rem;
 			padding-top: 4.5rem;
 		}
 
@@ -854,19 +856,23 @@ footer::before {
 		/*    Heading media >961px   */
 
 		.header__heading {
-			margin-top: 22rem;
-			padding: 0 5rem;			
+			margin-top: 28rem;
+			padding-left: calc( (100vw - 96rem)/(192 - 96) * (0 - 9.5) + 9.5rem);
+			padding-right: calc( (100vw - 96rem)/(192 - 96) * (0 - 9.5) + 9.5rem);
 		}
 
 		.header__headline {
 			font-size: 9rem;
 		}
 
+		.header__headline.right {
+		}
+
 		/*    Buttons media >961px   */
 
 
 		header .buttons {
-			margin-top: 22.5rem;
+			margin-top: 22.3rem;
 			padding-bottom: 10rem;
 		}
 
@@ -881,8 +887,8 @@ footer::before {
     	}
 
         .button__icon {
-	    	margin-right: 3rem;
-	        width: 5rem;
+	    	margin-right: 2rem;
+	        width: 4.5rem;
     	}
 
 	    .button__text {
@@ -972,7 +978,7 @@ footer::before {
 		.calling__number {
 			width: 16rem;
 			height: 16rem;
-			top: calc( (100vw - 96rem)/(192 - 96) * (20 - 10) + 10rem);
+			top: calc( (100vw - 96rem)/(192 - 96) * (15 - 10) + 10rem);
 			left: calc(50% - 8rem);
 		}
 
@@ -981,7 +987,7 @@ footer::before {
 		}
 
 		.calling__title {
-			margin-top: calc( (100vw - 96rem)/(192 - 96) * (17 - 10) + 15rem);
+			margin-top: calc( (100vw - 96rem)/(192 - 96) * (17 - 15) + 15rem);
 			font-size: calc( (100vw - 96rem)/(192 - 96) * (8 - 5) + 5rem);
 		}
 
