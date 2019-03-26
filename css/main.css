@@ -446,23 +446,19 @@ footer::before {
       	/*    Features media x320px   */
 
 	    .features-block.top {
-			height: 55rem;
-			padding-top: 2.5rem;
-			padding-bottom: 5rem;	
+			padding: 5rem 0;
+
 		}
 
 		.features-block.middle {
-			height: 26rem;
 			padding: 5rem 0;
 		}
 
 		.players .features-block.middle {
-			height: 20rem;
-			padding-bottom: 0;
+			padding: 5rem 0;
 		}
 
 		.features-block.bottom {
-			height: 23rem;
 			padding: 5rem 0;
 		}
 
@@ -492,16 +488,15 @@ footer::before {
 		}
 
 		.athlets .features__img {	
-			top: 9rem;	
+			top: 12rem;	
 			left: 30%;	
 		}
 
 
  		.players .features__img {	
-			top: 10rem;	
+			top: 12rem;	
 			left: 1rem;	
 		}
-			
 
 
    		/*    Calling media x320px   */
