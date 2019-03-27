@@ -115,7 +115,6 @@ header::before {
 }
 
 
-
 /*    Buttons styles    */
 
     .buttons {
@@ -489,13 +488,12 @@ footer::before {
 
 		.athlets .features__img {	
 			top: 12rem;	
-			left: 20vw;	
+			left: calc( (100vw - 32rem)/(64 - 32) * (20 - 7) + 7rem);
 		}
-
 
  		.players .features__img {	
 			top: 12rem;	
-			left: 2vw;	
+			left: calc( (100vw - 32rem)/(64 - 32) * (15 - 1) + 1rem);
 		}
 
 
@@ -589,8 +587,6 @@ footer::before {
 			text-align: center;			
 		}
     }
-
-
 
         				/*    x768px    */
 
