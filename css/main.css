@@ -489,12 +489,13 @@ footer::before {
 
 		.athlets .features__img {	
 			top: 12rem;	
-			left: calc( (100vw - 32rem)/(64 - 32) * (20 - 7) + 7rem);
+			left: 20vw;	
 		}
+
 
  		.players .features__img {	
 			top: 12rem;	
-			left: calc( (100vw - 32rem)/(64 - 32) * (15 - 1) + 1rem);
+			left: 2vw;	
 		}
 
 
