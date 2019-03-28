@@ -893,6 +893,10 @@ footer::before {
 			padding: 5rem;
 		}
 
+		.players {
+			overflow: hidden;
+		}
+
 		.players .features-block.top {
 			padding: 5.5rem;	
 		}
