@@ -275,6 +275,7 @@ header::before {
 		display: block;
 		text-transform: uppercase;
 		font-weight: 700;
+		letter-spacing: .05em;
 		color: #c1c1c1;
 	}
 
@@ -366,7 +367,7 @@ footer::before {
     	}
 
     	.inner {
-    		padding-left: 2rem;
+    		padding-left: 1.8rem;
     		padding-right: 2rem;
     	}
 
@@ -380,7 +381,7 @@ footer::before {
 
 		.header__logo {
 			max-width: 13.5rem;
-			padding-top: 3rem;
+			padding-top: 3.2rem;
 		}
 
 		.footer__logo {
@@ -392,16 +393,23 @@ footer::before {
 
 		.header__heading {
 			display: block;
-			margin-top: 15rem;			
+			margin-top: 12.6rem;			
 		}
 
 		.header__headline {
 			font-size: 2.8rem;
+			line-height: 3.132rem;
+		}
+
+		.header__headline.left {
+
 		}
 
 		.header__headline.right {
 			text-align: left;
+			margin-top: 1.9rem;
 			margin-left: 4.5rem;
+			line-height: 1.2;
 		}
 
 		/*    Buttons media x320px   */
@@ -417,6 +425,10 @@ footer::before {
 			padding-bottom: 8rem;
 		}
 
+		header .buttons {
+			margin-top: 8.3rem;
+		}
+
 		footer .buttons {
 			margin-top: 8rem;
 		}
@@ -425,32 +437,38 @@ footer::before {
     		flex-basis: 28rem;
     		height: 3.5rem;
     		border-radius: 4rem;
-    		padding: 2rem;
-    		padding: 0;
+    		padding: 0 2rem;
     	}
 
     	.button:last-child {
-    		margin-top: 1.5rem;
+    		margin-top: 1.3rem;
     	}
 
     	.button__icon {
-    		width: 3rem;
+    		width: 2rem;
     		margin-right: 1rem;
     	}
 
     	.button__text {
     		font-size: .8rem;
+    		line-height: 1;
     	}
 
       	/*    Features media x320px   */
 
 	    .features-block.top {
-			padding: 5rem 0;
-
+			padding: 2rem 0;
 		}
 
+		.players .features-block.top  {
+			padding-top: 1.5rem;
+			padding-bottom: 5.7rem;
+		}
+
+
 		.features-block.middle {
-			padding: 5rem 0;
+			padding-top: 8.5rem;
+			padding-bottom: 5.1rem;
 		}
 
 		.players .features-block.middle {
@@ -458,12 +476,17 @@ footer::before {
 		}
 
 		.features-block.bottom {
-			padding: 5rem 0;
+			padding: 5.15rem 0;
 		}
+
+		.players .features-block.bottom {
+
+		}
+
 
 		.features__title {
 			font-size: 5rem;
-			padding-bottom: 31rem;
+			padding-bottom: 31.2rem;
 		}
 
 		.feature {
@@ -472,7 +495,7 @@ footer::before {
 		}
 
 		.feature__number {
-			margin-right: 1rem;
+			margin-right: .8rem;
 			font-size: 1.4rem;
 		}
 
@@ -481,18 +504,18 @@ footer::before {
 		}
 
 		.feature__description {
-			margin-top: 3rem;
+			margin-top: 1.9rem;
 			font-size: 1.5rem;
-			line-height: 2.8rem;
+			line-height: 1.8rem;
 		}
 
 		.athlets .features__img {	
-			top: 12rem;	
+			top: 8rem;	
 			left: calc( (100vw - 32rem)/(64 - 32) * (20 - 7) + 7rem);
 		}
 
  		.players .features__img {	
-			top: 12rem;	
+			top: 8rem;	
 			left: calc( (100vw - 32rem)/(64 - 32) * (15 - 1) + 1rem);
 		}
 
@@ -512,10 +535,11 @@ footer::before {
 			width: 100%;
 			height: 21rem;
 			padding: 0 2rem;
+			padding-bottom: 8rem;
 		}
 
 		.calling__number {
-			bottom: 19rem;
+			bottom: 20rem;
 			left: 2rem;
 			width: 7rem;
 			height: 7rem;
@@ -528,13 +552,13 @@ footer::before {
 		.calling__title {
 			display: block;
 			margin-bottom: 20px;
-			padding-top: 3.5rem;
+			padding-top: 3rem;
 			font-size: 2.8rem;
 		}
 
 		.calling__desription {
 			display: block;
-			margin-top: 2.5rem;
+			margin-top: 1rem;
 			font-size: 1.6rem;
 			line-height: 2rem;
 		}
