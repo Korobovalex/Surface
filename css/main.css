@@ -32,6 +32,27 @@ html {
     font-size: 62.5%;
 }
 
+/*-- Pixel perfect --*/
+
+body {
+  margin: 0;
+  font-family: Open Sans, Arial, san-serif;
+  overflow-x: hidden;
+}  
+
+body::after {
+  content: url('../img/surface_320-source.jpg');
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 99;
+}
+
+/*----*/
+
 body {
     font-family: 'OpenSans', Arial, sans-serif;
     font-weight: 400;
@@ -565,7 +586,7 @@ footer::before {
 		}
 
 		.work_it .calling__content {
-			height: 22rem;
+			height: 22.5rem;
 		}
 
 		.calling__number {
@@ -580,7 +601,7 @@ footer::before {
 		}
 
 		.work_it .calling__number {
-			bottom: 20.8rem;
+			bottom: 21.4rem;
 
 		}
 
@@ -643,7 +664,7 @@ footer::before {
 			flex-direction: column;
 			justify-content: center;
 			width: 100%;
-			padding-top: 10.2rem;
+			padding-top: 10rem;
 		}
 
 		.footer-heading__icon {
@@ -663,7 +684,7 @@ footer::before {
     	}
 
 		.footer-heading__headline {
-			margin-top: 5.5rem;
+			margin-top: 5.2rem;
 			font-size: 3rem;
 			text-align: center;
 			letter-spacing: .11em;
