@@ -32,6 +32,8 @@ html {
     font-size: 62.5%;
 }
 
+
+
 body {
     font-family: 'OpenSans', Arial, sans-serif;
     font-weight: 400;
@@ -123,7 +125,7 @@ header::before {
     }
 
     .button {
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         border-radius: 4rem;
         background: #5e42b0;
@@ -474,7 +476,6 @@ footer::before {
 			padding-bottom: 5.7rem;
 		}
 
-
 		.features-block.middle {
 			padding-top: 8.5rem;
 			padding-bottom: 5.1rem;
@@ -686,7 +687,7 @@ footer::before {
     	}
 
     	.inner {
-    		padding-left: 3.5rem;
+    		padding-left: 8.5rem;
     		padding-right: 5rem;    		
     	}
 		
@@ -711,7 +712,7 @@ footer::before {
 		/*    Heading media x768px   */
 
 		.header__heading {
-			margin-top: 18rem;
+			margin-top: 16.5rem;
 		}
 
 		.header__headline {
@@ -719,25 +720,34 @@ footer::before {
 		}
 
 		.header__headline.right {
-			margin-left: 10.5rem;
+			margin-top: 1rem;
+			margin-left: 10.7rem;
 			text-align: left;
+			line-height: 1.2;
 		}
 
 		/*    Buttons media x768px   */
 
+		.buttons.inner {
+			padding-left: 5rem;
+			padding-right: 5rem;
+		}
+
 		header .buttons {
-			margin-top: 31rem;
+			margin-top: 30rem;
 			padding-bottom: 9rem;
 		}
 
 		footer .buttons {
-			margin-top: 29rem;
+			margin-top: 28rem;
 			padding-bottom: 5rem;
 		}
 
 		.button {
     		flex-basis: 31rem;
-    		padding: 10px 15px;
+    		padding-left: 5.5rem;
+    		padding-top: 1.4rem;
+    		padding-bottom: 1.3rem;
     	}
 
     	.button:first-child {
@@ -745,8 +755,12 @@ footer::before {
     	}
 
     	.button__icon {
-    		width: 4rem;
-    		margin-right: 3rem;
+    		width: 4.5rem;
+    		margin-right: 2.5rem;
+    	}
+
+    	.button:first-child .button__icon {
+		margin-right: .2rem;
     	}
 
     	.button__text {
@@ -764,22 +778,58 @@ footer::before {
 			padding: 3rem;
 		}
 
+		.athlets .features-block.top {
+			padding: 3rem;
+			padding-bottom: 3.5rem;
+		}
+
+		.players .features-block.top {
+			padding: 3rem;
+			padding-bottom: 3.5rem;
+			padding-left: 3.2rem;
+		}
+
 		.features-block.middle {
 			padding: 3rem;
+		}
+
+		.athlets .features-block.middle {
+			padding-bottom: 3.5rem;
+		}
+
+		.players .features-block.middle {
+			padding-top: 3.1rem;
+			padding-bottom: 3.5rem;
+			padding-left: 3.2rem;
 		}
 
 		.features-block.bottom {
 			padding: 3rem;
 		}
 
+		.athlets .features-block.bottom {
+			padding-bottom: 3.5rem;
+		}
+
+		.players .features-block.bottom {
+			padding-top: 3.3rem;
+			padding-bottom: 3.5rem;
+			padding-left: 3.3rem;
+		}
+
 		.features__title {
-			margin-top: 5rem;
-			margin-bottom: 5rem;
+			margin-top: 4.3rem;
+			margin-bottom: 4.1rem;
 			font-size: 8rem;
 		}
 
+		.players .features__title {
+			margin-bottom: 4rem;
+			margin-left: -.4rem;
+		}
+
 		.feature__number {
-			margin-right: 1rem;
+			margin-right: .7rem;
 			font-size: 1.8rem;
 		}
 
@@ -788,13 +838,26 @@ footer::before {
 		}
 
 		.feature__description {
-			max-width: 40rem;
-			margin-top: 2rem;
+			margin-top: 1.3rem;
 			font-size: 1.6rem;
+			line-height: 2.8rem;
 		}
 
+		.athlets .feature__description {
+			max-width: 45rem;
+		}
+
+		.players .feature__description {
+			max-width: 40rem;
+		}
+
+		.players .features-block.bottom .feature__description {
+			max-width: 40rem;
+		}
+
+
 		.athlets .features__title, .athlets .feature {
-			padding-left: 40%;
+			padding-left: 37%;
 		}
 
 		.players .features__title, .players .feature {
@@ -802,13 +865,13 @@ footer::before {
 		}
 
 		.athlets .features__img {
-			top: 9rem;
-			right: 55%;
+			top: 9.2rem;
+			right: 56.3%;
 		}
 
 		.players .features__img {
-			top: 3rem;
-			right: 1rem;
+			top: 3.9rem;
+			right: 0;
 		}
 
    		/*    Calling media x768px   */
@@ -837,8 +900,19 @@ footer::before {
 			flex-direction: row-reverse;		
 		}
 
+		.be_active .calling__content {
+			padding-top: 6rem;
+			padding-left: 2.8rem;
+		}
+
 		.find_contact .calling__content {
-			margin-right: 10rem;
+			padding-top: 5rem;
+			padding-left: 2.8rem;
+		}
+
+		.work_it .calling__content {
+			padding-top: 5.5rem;
+			padding-left: 3rem;
 		}
 
 		.calling__number {
@@ -848,20 +922,45 @@ footer::before {
 			left: 3.5rem;
 		}
 
+		.find_contact .calling__number {
+			top: -9rem;
+		}
+
+		.work_it .calling__number {
+			top: -8.5rem;
+		}
+
 		.calling__counter {
 			font-size: 2.4rem;
 		}
 
 		.calling__title {
 			font-size: 8rem;
+			letter-spacing: 0;
 		}
 
 		.calling__desription {
 			max-width: 67rem;
-			margin-top: 4rem;
+			margin-top: 1.2rem;
 			padding-bottom: 10rem;
 			font-size: 2.4rem;
 			line-height: 2.8rem;
+		}
+
+		.be_active .calling__desription {
+			margin-left: .2rem;
+		}
+
+		.find_contact .calling__desription {
+			margin-top: 1.1rem;
+			margin-left: .4rem;
+			padding-bottom: 10.4rem;
+		}
+
+		.work_it .calling__desription {
+		margin-top: 1.2rem;
+		margin-left: .3rem;
+		padding-bottom: 11.1rem;
 		}
 
 		footer {
@@ -871,8 +970,8 @@ footer::before {
 		/*    Footer heading media x768px   */
 
 		.footer-heading.inner {
-			padding-left: 3rem;
-			padding-right: 3rem;
+			padding-left: 2rem;
+			padding-right: 2rem;
 		}
 
 		.footer-heading {
@@ -894,13 +993,15 @@ footer::before {
     	}
 
 		.footer-heading__headline {
-			margin-top: 8rem;
+			margin-top: 7.5rem;
+			margin-left: .2rem;
 			font-size: 8rem;
-			letter-spacing: .04em;
+			letter-spacing: .06em;
 		}
 
 		.footer-heading__slogan {
 			font-size: 3.6rem;
+			margin-top: .5rem;
 			text-align: center;			
 		}
     }
