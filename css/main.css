@@ -125,7 +125,7 @@ header::before {
     }
 
     .button {
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         border-radius: 4rem;
         background: #5e42b0;
@@ -1179,6 +1179,10 @@ footer::before {
 		.calling__title {
 			margin-top: calc( (100vw - 96rem)/(192 - 96) * (25.5 - 15) + 15rem);
 			font-size: calc( (100vw - 96rem)/(192 - 96) * (8 - 5) + 5rem);
+		}
+
+		.find_contact .calling__title {
+			font-size: calc( (100vw - 96rem)/(192 - 96) * (8 - 4.5) + 4.5rem);
 		}
 
 		.calling__desription {
