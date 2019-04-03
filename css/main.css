@@ -135,6 +135,10 @@ header::before {
         color: #ffffff;
     }
 
+    .button:hover {
+    	background: linear-gradient(45deg, #381C8A, #8B6FDD);
+    }
+
     .button__icon {
         fill: #ffffff;
     }
